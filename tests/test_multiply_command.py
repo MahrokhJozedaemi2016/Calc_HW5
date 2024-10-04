@@ -1,5 +1,5 @@
 import unittest
-from app.commands.multiply_command import MultiplyCommand
+from calculator.commands.multiply_command import MultiplyCommand
 
 class TestMultiplyCommand(unittest.TestCase):
     def test_multiply(self):

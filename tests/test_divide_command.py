@@ -1,5 +1,5 @@
 import unittest
-from app.commands.divide_command import DivideCommand
+from calculator.commands.divide_command import DivideCommand
 
 class TestDivideCommand(unittest.TestCase):
     def test_divide(self):

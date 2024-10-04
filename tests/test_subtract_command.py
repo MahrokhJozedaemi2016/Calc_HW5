@@ -1,5 +1,5 @@
 import unittest
-from app.commands.subtract_command import SubtractCommand
+from calculator.commands.subtract_command import SubtractCommand
 
 class TestSubtractCommand(unittest.TestCase):
     def test_subtract(self):

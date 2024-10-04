@@ -1,5 +1,5 @@
 import unittest
-from app.commands.add_command import AddCommand
+from calculator.commands.add_command import AddCommand
 
 class TestAddCommand(unittest.TestCase):
     def test_add(self):

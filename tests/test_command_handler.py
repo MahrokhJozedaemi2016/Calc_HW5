@@ -1,9 +1,9 @@
 import unittest
-from app.commands.command_handler import CommandHandler
-from app.commands.add_command import AddCommand
-from app.commands.subtract_command import SubtractCommand
-from app.commands.multiply_command import MultiplyCommand
-from app.commands.divide_command import DivideCommand
+from calculator.commands.command_handler import CommandHandler
+from calculator.commands.add_command import AddCommand
+from calculator.commands.subtract_command import SubtractCommand
+from calculator.commands.multiply_command import MultiplyCommand
+from calculator.commands.divide_command import DivideCommand
 
 class TestCommandHandler(unittest.TestCase):
     def setUp(self):
